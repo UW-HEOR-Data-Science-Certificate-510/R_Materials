@@ -14,8 +14,8 @@ A rendered HTML version of the Quarto file for reference.
 uw-pdf-header-tex
 uw-theme.css
 These auxiliary files are automatically used when rendering R_basics.qmd.
-### Please do not modify any files in this repository.
-### If you would like to experiment or make changes, download copies to your own machine first.
+Please do not modify any files in this repository.
+If you would like to experiment or make changes, download copies to your own machine first.
 
 ## Instructions
 ### 1. Create a local folder
