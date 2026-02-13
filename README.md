@@ -21,11 +21,10 @@ These auxiliary files are automatically used when rendering R_basics.qmd.
 ### 1. Create a local folder
 On your own machine, create a folder where you will store the lesson files.
 
-### 2. Download the following files from this repository
-Download these files into your local folder:
-#### R_basics.qmd
-#### uw-pdf-header-tex
-#### uw-theme.css
+### 2. Download the following files from this repository into your local folder:
+R_basics.qmd
+uw-pdf-header-tex
+uw-theme.css
 (You do not need to download the HTML unless you want it for reference.)
 
 ### 3. Work through the lessons
