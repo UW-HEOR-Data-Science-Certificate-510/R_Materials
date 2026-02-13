@@ -6,12 +6,11 @@ GitHub is a widely used, online system for sharing code and documents, and in th
 You will not submit work here. This repository is provided as read-only reference material.
 
 ## In this repository you will find the following files:
-1.	Two videos that walk through the basics of getting started with R.
-2.	R_basics.qmd
+1.	R_basics.qmd
 The Quarto source file containing the R code used in the lessons.
-3.	R_basics.html
+2.	R_basics.html
 A rendered HTML version of the Quarto file for reference.
-4.	Auxiliary formatting files used when rendering the Quarto document:
+3.	Auxiliary formatting files used when rendering the Quarto document:
 o	uw-pdf-header-tex
 o	uw-theme.css
 These auxiliary files are automatically used when rendering R_basics.qmd.
@@ -30,7 +29,7 @@ Download these files into your local folder:
 (You do not need to download the HTML unless you want it for reference.)
 
 ### 3. Work through the lessons
-Start the videos. You may proceed through the R lessons in any one of the following ways:
+Start the videos that are posted in Canvas. You may proceed through the R lessons in any one of the following ways:
 •	Option A
 Follow along with the video without running code.
 •	Option B
