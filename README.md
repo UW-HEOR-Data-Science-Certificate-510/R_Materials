@@ -11,8 +11,8 @@ The Quarto source file containing the R code used in the lessons.
 ### 2.	R_basics.html
 A rendered HTML version of the Quarto file for reference.
 ### 3.	Auxiliary formatting files used when rendering the Quarto document:
-#### uw-pdf-header-tex
-#### uw-theme.css
+uw-pdf-header-tex
+uw-theme.css
 These auxiliary files are automatically used when rendering R_basics.qmd.
 ### Please do not modify any files in this repository.
 ### If you would like to experiment or make changes, download copies to your own machine first.
@@ -39,7 +39,7 @@ Create a new (de novo) .qmd file, copy and paste code from R_basics.qmd into it,
 Choose whichever approach best supports your learning.
 
 ### 4. Privacy and access
-This work is designed to be completed independently:
+#### This work is designed to be completed independently:
 #### Other students cannot see your work
 #### UW faculty and staff cannot see your local files
 #### You cannot add to or delete content from this GitHub repository
