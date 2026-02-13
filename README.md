@@ -22,10 +22,10 @@ If you would like to experiment or make changes, download copies to your own mac
 On your own machine, create a folder where you will store the lesson files.
 
 ### 2. Download the following files from this repository into your local folder:
-R_basics.qmd
-uw-pdf-header-tex
-uw-theme.css
-(You do not need to download the HTML unless you want it for reference.)
+#### R_basics.qmd
+#### uw-pdf-header-tex
+#### uw-theme.css
+#### (You do not need to download the HTML unless you want it for reference.)
 
 ### 3. Work through the lessons
 Start the videos that are posted in Canvas. You may proceed through the R lessons in any one of the following ways:
