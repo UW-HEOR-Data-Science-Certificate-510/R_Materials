@@ -1,3 +1,6 @@
+# These materials are provided for instructional use in this course.
+All rights are reserved. Reuse, redistribution, or adaptation outside this course is not permitted without explicit permission.
+
 # Welcome to the R Materials for UW_HEOR_Data_Science_Certificate_510
 This is a private GitHub repository containing R learning materials for this course.
 
