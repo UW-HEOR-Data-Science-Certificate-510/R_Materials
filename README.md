@@ -50,4 +50,4 @@ Choose whichever approach best supports your learning.
 ## We hope you enjoy the R materials we have prepared and that they provide helpful insights into the course content.
 
 ### Best wishes,
-Professor Beth, Carlos, and Leana
+The Course Leadership Team
