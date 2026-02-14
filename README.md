@@ -11,7 +11,7 @@ In this course, GitHub is used **only** to distribute R-related materials for yo
 This file. 
 A README.md file is customarily written by the authors/owner of GitHub repos. 
 README.md files provide a standard way to communicate with collaborators. 
-It provides a brief explanation of what this GitHub repository contains and how it is used in the course.
+This README.md file provides a brief explanation of what this GitHub repository contains and how it is used in the course.
 
 ### `R_basics.qmd`
 A Quarto source file containing the R code and explanations used in the lessons.
