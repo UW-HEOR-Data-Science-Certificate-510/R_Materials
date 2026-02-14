@@ -1,53 +1,39 @@
-# These materials are provided for instructional use in this course.
-All rights are reserved. Reuse, redistribution, or adaptation outside this course is not permitted without explicit permission.
+# Welcome to the GitHub Repository for the Course
+All rights reserved. Reuse, redistribution, or adaptation of these materials outside this course is not permitted without explicit permission.
 
-# Welcome to the R Materials for UW_HEOR_Data_Science_Certificate_510
-This is a private GitHub repository containing R learning materials for this course.
+---
 
 ## What is GitHub?
-GitHub is a widely used, online system for sharing code and documents, and in this course it is used only to distribute R materials for you to download and run on your own computer.
-You will not submit work here. This repository is provided as read-only reference material.
+GitHub is a widely used online platform for storing, sharing, and tracking changes to code and documents.  
+In this course, GitHub is used **only** to distribute R-related materials for you to download and run on your own computer.
 
-## In this repository you will find the following files:
-### 1.	R_basics.qmd
-The Quarto source file containing the R code used in the lessons.
-### 2.	R_basics.html
-A rendered HTML version of the Quarto file for reference.
-### 3.	Auxiliary formatting files used when rendering the Quarto document:
-#### uw-pdf-header-tex
-#### uw-theme.css
-These auxiliary files are automatically used when rendering R_basics.qmd.
-Please do not modify any files in this repository.
-If you would like to experiment or make changes, download copies to your own machine first.
+You are **not required to use GitHub beyond viewing and downloading files**.
 
-## Instructions
-### 1. Create a local folder
-On your own machine, create a folder where you will store the lesson files.
+---
 
-### 2. Download the following files from this repository into your local folder:
-#### R_basics.qmd
-#### uw-pdf-header-tex
-#### uw-theme.css
-#### (You do not need to download the HTML unless you want it for reference.)
+## What You Will Find in This Repository
 
-### 3. Work through the lessons
-Start the videos that are posted in Canvas. You may proceed through the R lessons in any one of the following ways:
-#### Option A
-Follow along with the video without running code.
-#### Option B
-Create an .Rproj in your local folder, open R_basics.qmd in RStudio, run the code, and render your own R_basics.html.
-#### Option C
-Create a new (de novo) .qmd file, copy and paste code from R_basics.qmd into it, run the code, and render your own HTML file.
+### `README.md`
+This file. It provides a brief explanation of what this GitHub repository contains and how it is used in the course.
 
-Choose whichever approach best supports your learning.
+### `R_basics.qmd`
+A Quarto source file containing the R code and explanations used in the lessons.
+This file is written in plain text and can be read directly on GitHub or opened and run locally on your computer.
 
-### 4. Privacy and access
-#### This work is designed to be completed independently:
-#### Other students cannot see your work
-#### UW faculty and staff cannot see your local files
-#### You cannot add to or delete content from this GitHub repository
+---
 
-## We hope you enjoy the R materials we have prepared and that they provide helpful insights into the course content.
+## Important Notes
+- You will not run code through this GitHub repository  
+- This repository is provided as **read-only reference material**
+- You cannot add, modify, or delete content here
+- The R lessons can be downloaded and run from **Canvas**
 
-### Best wishes,
+The purpose of this repository is to give you exposure to what a GitHub repository looks like and how code-based course materials are commonly shared.
+
+---
+
+## We hope you enjoy this abbreviated example of a GitHub repository.
+
+**Best wishes,**  
 The Course Leadership Team
+
