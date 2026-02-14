@@ -1,15 +1,9 @@
-# Welcome to the GitHub Repository for the Course
+# Welcome to the GitHub Repository for the R_Resources
 All rights reserved. Reuse, redistribution, or adaptation of these materials outside this course is not permitted without explicit permission.
-
----
 
 ## What is GitHub?
 GitHub is a widely used online platform for storing, sharing, and tracking changes to code and documents.  
-In this course, GitHub is used **only** to distribute R-related materials for you to download and run on your own computer.
-
-You are **not required to use GitHub beyond viewing and downloading files**.
-
----
+In this course, GitHub is used **only** to distribute R-related materials for you to view. 
 
 ## What You Will Find in This Repository
 
@@ -20,17 +14,13 @@ This file. It provides a brief explanation of what this GitHub repository contai
 A Quarto source file containing the R code and explanations used in the lessons.
 This file is written in plain text and can be read directly on GitHub or opened and run locally on your computer.
 
----
-
 ## Important Notes
 - You will not run code through this GitHub repository  
 - This repository is provided as **read-only reference material**
 - You cannot add, modify, or delete content here
-- The R lessons can be downloaded and run from **Canvas**
+- The R lessons can be downloaded and run from within **Canvas**
 
 The purpose of this repository is to give you exposure to what a GitHub repository looks like and how code-based course materials are commonly shared.
-
----
 
 ## We hope you enjoy this abbreviated example of a GitHub repository.
 
