@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
-  <rect width="960" height="540" fill="#eef3f8"/>
-  <rect x="24" y="24" width="912" height="492" rx="14" fill="#ffffff" stroke="#bfd0df" stroke-width="2"/>
-  <text x="60" y="95" fill="#1e3d5c" font-size="34" font-family="Arial, sans-serif">RStudio Window Layout</text>
-  <text x="60" y="145" fill="#4d6c8a" font-size="24" font-family="Arial, sans-serif">Placeholder image</text>
-  <text x="60" y="200" fill="#4d6c8a" font-size="20" font-family="Arial, sans-serif">Replace with the pane screenshot used in class.</text>
-</svg>
-
