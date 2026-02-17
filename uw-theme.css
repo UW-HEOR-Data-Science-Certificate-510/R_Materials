@@ -26,7 +26,7 @@ blockquote { border-left: 4px solid var(--uw-purple); padding-left: 10px; color:
 
 /* Sidebar logo size */
 #quarto-sidebar .sidebar-logo {
-  width: 220px !important;   /* increase/decrease this value */
+  width: 290px !important;   /* increase/decrease this value */
   max-width: 100%;
   height: auto;
 }
