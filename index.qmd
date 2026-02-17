@@ -12,10 +12,10 @@ These materials are shared so you can:
 
 You will not run code through this site. Course activities and runnable files are distributed through Canvas.
 
-## Start Here
+## Book Navigation
 
-- Use the left sidebar to navigate course resources.
-- Start with [R Basics Topics](R_basics.qmd), which covers core setup, objects, and operations for getting started with R.
+- Use the left sidebar to navigate chapters.
+- Under **Resources**, open **Getting Started with R** to begin with R basics topics.
 
 ## Download Option
 
@@ -23,7 +23,7 @@ Students can also download the Quarto lesson file to their own computer from Git
 
 1. Open `R_basics.qmd` in the repository.
 2. Click **Raw** and save the file, or use **Code > Download ZIP** to download the full repository.
-3. Follow the local run steps in [Run Locally](run_locally.qmd).
+3. Follow the local run steps in [Run R Basics Locally](run_locally.qmd).
 
 ## Repository Purpose
 

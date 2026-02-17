@@ -1,31 +1,20 @@
 project:
-  type: website
+  type: book
   output-dir: docs
 
-website:
+book:
   title: "R Materials for Certificate Program"
-  description: "Read-only R learning materials shared through GitHub."
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
+  author: "Course Leadership Team"
   sidebar:
-    style: docked
     search: true
     collapse-level: 1
-    contents:
-      - section: Start Here
-        contents:
-          - index.qmd
-          - run_locally.qmd
-      - section: Resources
-        contents:
-          - text: R Basics Topics
-            href: R_basics.qmd
-          - future_resources.qmd
-  page-footer:
-    left: "Course Leadership Team"
-    right: "Built with Quarto"
+  chapters:
+    - index.qmd
+    - part: "Resources"
+      chapters:
+        - R_basics.qmd
+        - run_locally.qmd
+        - future_resources.qmd
 
 format:
   html:

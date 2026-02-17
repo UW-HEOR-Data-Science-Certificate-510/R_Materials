@@ -49,6 +49,21 @@ Introduction
 
 ### VIDEO 1
 
+## Download This Lesson and Run It Locally
+
+If you want your own copy of this Quarto file:
+
+1. Open `R_basics.qmd` in this GitHub repository.
+2. Click **Raw** and save the file, or use **Code > Download ZIP** for the full repository.
+3. Open the file in RStudio.
+4. Run code chunks with `Cmd/Ctrl + Enter`, or render from a terminal:
+
+```bash
+quarto render R_basics.qmd --execute
+```
+
+See the full setup and troubleshooting steps in [Run R Basics Locally](run_locally.qmd).
+
 
 # The R Project Homepage
 
