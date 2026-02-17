@@ -24,6 +24,13 @@ blockquote { border-left: 4px solid var(--uw-purple); padding-left: 10px; color:
   color: var(--uw-gold) !important;
 }
 
+/* Sidebar logo size */
+#quarto-sidebar .sidebar-logo {
+  width: 220px !important;   /* increase/decrease this value */
+  max-width: 100%;
+  height: auto;
+}
+
 /* Keep the right "Sections" rail neutral and readable */
 #quarto-margin-sidebar {
   background-color: #fff !important;
