@@ -9,6 +9,7 @@ format:
     number-sections: true
     df-print: paged
     theme: flatly
+    css: uw-theme.css
     highlight: textmate
 execute:
   enabled: false

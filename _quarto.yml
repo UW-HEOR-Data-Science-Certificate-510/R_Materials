@@ -9,8 +9,20 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: R_basics.qmd
-        text: R Basics
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 1
+    contents:
+      - section: Start Here
+        contents:
+          - index.qmd
+          - run_locally.qmd
+      - section: Resources
+        contents:
+          - text: R Basics Topics
+            href: R_basics.qmd
+          - future_resources.qmd
   page-footer:
     left: "Course Leadership Team"
     right: "Built with Quarto"
@@ -18,5 +30,6 @@ website:
 format:
   html:
     theme: flatly
+    css: uw-theme.css
     toc: true
     toc-depth: 3

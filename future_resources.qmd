@@ -1,0 +1,13 @@
+---
+title: "Future Resources"
+---
+
+Additional R topics and course resources will be added here over time.
+
+Planned additions:
+
+- Data wrangling fundamentals
+- Visualization with `ggplot2`
+- Regression and inference examples
+- Project organization and reproducibility
+

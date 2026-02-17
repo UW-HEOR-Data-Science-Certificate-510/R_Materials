@@ -14,7 +14,16 @@ You will not run code through this site. Course activities and runnable files ar
 
 ## Start Here
 
-- [R Basics](R_basics.qmd): basic resources and operations for getting started with R
+- Use the left sidebar to navigate course resources.
+- Start with [R Basics Topics](R_basics.qmd), which covers core setup, objects, and operations for getting started with R.
+
+## Download Option
+
+Students can also download the Quarto lesson file to their own computer from GitHub:
+
+1. Open `R_basics.qmd` in the repository.
+2. Click **Raw** and save the file, or use **Code > Download ZIP** to download the full repository.
+3. Follow the local run steps in [Run Locally](run_locally.qmd).
 
 ## Repository Purpose
 
