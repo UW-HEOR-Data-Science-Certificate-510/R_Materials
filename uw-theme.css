@@ -1,6 +1,8 @@
 /* University of Washington theme (HTML) */
 :root {
   --uw-purple: #4B2E83;
+  --uw-purple-soft: rgba(75, 46, 131, 0.82);
+  --uw-purple-soft-dark: rgba(57, 38, 94, 0.92);
   --uw-gold: #B7A57A;
   --uw-purple-dark: #39265e;
   --uw-paper: #fafafa;
@@ -11,15 +13,54 @@ a, a:visited { color: var(--uw-purple); text-decoration: none; }
 a:hover { color: #85754D; text-decoration: underline; }
 code, pre code { background-color: #F2F0EB; color: var(--uw-purple); border-radius: 4px; padding: 2px 5px; }
 blockquote { border-left: 4px solid var(--uw-purple); padding-left: 10px; color: #555; background-color: #f8f6fa; }
-.navbar, .quarto-sidebar, .sidebar, #quarto-sidebar, .sidebar-navigation { background-color: var(--uw-purple) !important; color: white !important; }
+.navbar, .quarto-sidebar, #quarto-sidebar, .sidebar-navigation { background-color: var(--uw-purple-soft) !important; color: white !important; }
 .navbar a, .quarto-sidebar a, #quarto-sidebar a, .sidebar-navigation a { color: white !important; }
 .sidebar-navigation .sidebar-item .active, #quarto-sidebar .sidebar-item .active {
-  background-color: var(--uw-purple-dark) !important;
+  background-color: var(--uw-purple-soft-dark) !important;
   color: #fff !important;
   border-left: 3px solid var(--uw-gold);
 }
 .sidebar-navigation .sidebar-title {
   color: var(--uw-gold) !important;
 }
+
+/* Keep the right "Sections" rail neutral and readable */
+#quarto-margin-sidebar {
+  background-color: #fff !important;
+  color: #111 !important;
+}
+
+#quarto-margin-sidebar .toc-title,
+#quarto-margin-sidebar .quarto-listing-category-title,
+#quarto-margin-sidebar .menu-text,
+#quarto-margin-sidebar nav,
+#quarto-margin-sidebar a {
+  color: #111 !important;
+}
+
+#quarto-margin-sidebar a.active,
+#quarto-margin-sidebar .active,
+#quarto-margin-sidebar .toc-active {
+  color: var(--uw-gold) !important;
+  font-weight: 600;
+}
+
+/* Use full-width layout rather than centered page columns */
+body .quarto-container,
+body .page-columns,
+body .page-row-contents,
+body main.content {
+  max-width: 100% !important;
+}
+
+.quarto-container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.page-columns {
+  gap: 1.25rem;
+}
+
 .btn-primary, .btn { background-color: var(--uw-purple); border-color: var(--uw-purple); }
 .btn-primary:hover, .btn:hover { background-color: var(--uw-purple-dark); border-color: var(--uw-purple-dark); }

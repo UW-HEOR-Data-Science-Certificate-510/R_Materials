@@ -88,7 +88,7 @@ This site is the "home base" for R itself and is separate from RStudio/Posit (wh
 -   **RStudio** (by Posit) is a popular Integrated Development Environment (IDE) for R.\
     An IDE is a software environment that integrates coding, running, and debugging tools in one place, making         programming easier and more efficient.
 
-![R and RStudio](images/RStudio_vs_R.svg)
+![R and RStudio](images/RStudio_vs_R.png)
 
 Install **R first**, then **RStudio**.
 
@@ -259,7 +259,7 @@ Across the **top toolbar** you will find buttons for:
 
 
 This Quarto figure syntax that embeds an image and centers it using a figure attribute block.
-![RStudio window](images/Rstudio2.svg){fig-align="center"}
+![RStudio window](images/Rstudio2.png){fig-align="center"}
 
 
 # Now you are ready to get started! 
@@ -295,7 +295,7 @@ help("mean")   # or ?mean
 
 ```
 
-![RStudio window](images/Rstudio2.svg){fig-align="center"} This is code that will insert an image when we render the document.
+![RStudio window](images/Rstudio2.png){fig-align="center"} This is code that will insert an image when we render the document.
 
 ```{r basic_plot}
 
@@ -754,7 +754,7 @@ To explore snippets in RStudio:
 
 -   **Tools → Global Options → Code → Edit Snippets…**
 
-![Window to edit Snippets](images/snippets.svg)
+![Window to edit Snippets](images/snippets.png)
 
 ## Create your own snippet
 
