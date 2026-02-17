@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#f5f8fb"/>
+  <rect x="30" y="30" width="900" height="480" rx="14" fill="#ffffff" stroke="#c7d4e1" stroke-width="2"/>
+  <text x="60" y="95" fill="#204066" font-size="36" font-family="Arial, sans-serif">R vs RStudio</text>
+  <text x="60" y="145" fill="#456789" font-size="24" font-family="Arial, sans-serif">Placeholder image</text>
+  <text x="60" y="200" fill="#456789" font-size="20" font-family="Arial, sans-serif">Replace with your course screenshot when available.</text>
+</svg>
+

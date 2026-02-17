@@ -1,0 +1,21 @@
+---
+title: "Welcome to R Materials"
+---
+
+This site provides **read-only reference materials** for students in the certificate program.
+
+These materials are shared so you can:
+
+- Review R concepts and examples from class
+- See how code-based course materials are organized in GitHub
+- Access course reference content in one place
+
+You will not run code through this site. Course activities and runnable files are distributed through Canvas.
+
+## Start Here
+
+- [R Basics](R_basics.qmd): basic resources and operations for getting started with R
+
+## Repository Purpose
+
+This repository is used to distribute R-related materials for viewing. Reuse, redistribution, or adaptation outside this course is not permitted without explicit permission.

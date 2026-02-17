@@ -17,11 +17,18 @@ This README.md file provides a brief explanation of what this GitHub repository 
 A Quarto source file containing the R code and explanations used in the lessons.
 This file is written in plain text and can be read directly on GitHub or opened and run locally on your computer.
 
+### `index.qmd` and `_quarto.yml`
+These files define a Quarto website for this repository.
+The website is intended for students to view materials in a clean web format, starting with the **R Basics** lesson.
+
 ## Important Notes
 - You will not run code through this GitHub repository  
 - This repository is provided as **read-only reference material**
 - You cannot add, modify, or delete content here
 - The R lessons can be downloaded and run from within **Canvas**
+
+## GitHub Pages
+This repository includes a GitHub Actions workflow at `.github/workflows/publish.yml` to publish the Quarto website with GitHub Pages when changes are pushed to `main`.
 
 The purpose of this repository is to give you exposure to what a GitHub repository looks like and how code-based course materials are commonly shared.
 
@@ -29,4 +36,3 @@ The purpose of this repository is to give you exposure to what a GitHub reposito
 
 **Best wishes,**  
 The Course Leadership Team
-
