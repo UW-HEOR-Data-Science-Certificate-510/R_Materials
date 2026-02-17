@@ -12,9 +12,9 @@ These materials are shared so you can:
 
 You will not run code through this site. Course activities and runnable files are distributed through Canvas.
 
-## Book Navigation
+## Materials Navigation
 
-- Use the left sidebar to navigate chapters.
+- Use the left sidebar to navigate on available materials.
 - Under **Resources**, open **Getting Started with R** to begin with R basics topics.
 
 ## Download Option

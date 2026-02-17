@@ -1,4 +1,4 @@
-# Welcome to the GitHub Repository for the R_Resources
+# Welcome to the GitHub Repository for the R Resources
 All rights reserved. Reuse, redistribution, or adaptation of these materials outside this course is not permitted without explicit permission.
 
 ## What is GitHub?
@@ -16,9 +16,10 @@ This README.md file provides a brief explanation of what this GitHub repository 
 ### `R_basics.qmd`
 A Quarto source file containing the R code and explanations used in the lessons.
 This file is written in plain text and can be read directly on GitHub or opened and run locally on your computer.
+Video 1 and Video 2 in Canvas will cover this file in more detail.
 
 ### `index.qmd` and `_quarto.yml`
-These files define a Quarto website for this repository.
+These files define and provide structure to the Quarto website for this repository.
 The website is intended for students to view materials in a clean web format, starting with the **R Basics** lesson.
 
 ## Important Notes
