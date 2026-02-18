@@ -19,23 +19,22 @@ execute:
 editor: source
 ---
 
-The above is called a yaml (or yml) header. It provides the script with instructions it will execute when we save our document at the end of the session. 
+The above is called a yaml (or yml) header. It provides the script with instructions it will execute when we save our document at the end of the session.
 
 Introduction
 
 -   This guide shows how to:
--   Video #1
+-   Video 1
     -   Download and install R and RStudio
     -   Understand how base R differs from RStudio
-    -   Choose a CRAN mirror  
+    -   Choose a CRAN mirror\
     -   Navigate the RStudio environment (the 4 panes)
     -   Format flat files (like CSV) for loading
     -   Create objects
     -   Install and load libraries
     -   Format files for loading
     -   Load a dataset (flat file and pointers to other resources)
-    
--   Video 2    
+-   Video 2
     -   Run simple calculations
     -   Learn the types of objects
     -   Create functions
@@ -46,24 +45,22 @@ Introduction
     -   Learn where to find help
     -   Sources for further reading
 
-
 ### VIDEO 1
 
 ## Download This Lesson and Run It Locally
 
 If you want your own copy of this Quarto file:
 
-1. Open `R_basics.qmd` in this GitHub repository.
-2. Click **Raw** and save the file, or use **Code > Download ZIP** for the full repository.
-3. Open the file in RStudio.
-4. Run code chunks with `Cmd/Ctrl + Enter`, or render from a terminal:
+1.  Open `R_basics.qmd` in this GitHub repository.
+2.  Click **Raw** and save the file, or use **Code \> Download ZIP** for the full repository.
+3.  Open the file in RStudio.
+4.  Run code chunks with `Cmd/Ctrl + Enter`, or render from a terminal:
 
-```bash
+``` bash
 quarto render R_basics.qmd --execute
 ```
 
 See the full setup and troubleshooting steps in [Run R Basics Locally](run_locally.qmd).
-
 
 # The R Project Homepage
 
@@ -79,14 +76,13 @@ From this site you can access:
 
 This site is the "home base" for R itself and is separate from RStudio/Posit (which provides the Integrated Development Environment (IDE)).
 
-
 # How to Download R and RStudio, and Check Your Versions
 
 ## Installing R and RStudio
 
 -   **R** is the programming language and engine.\
 -   **RStudio** (by Posit) is a popular Integrated Development Environment (IDE) for R.\
-    An IDE is a software environment that integrates coding, running, and debugging tools in one place, making         programming easier and more efficient.
+    An IDE is a software environment that integrates coding, running, and debugging tools in one place, making programming easier and more efficient.
 
 ![R and RStudio](images/RStudio_vs_R.png)
 
@@ -101,10 +97,9 @@ Install **R first**, then **RStudio**.
     -   Download the installer for your operating system and run it\
     -   Open RStudio after installing (R should already be installed)
 
-
 ## Checking Your Versions
 
-###R version
+### R version
 
 ```{r}
 
@@ -129,7 +124,6 @@ Explanation:
 
 `paste` simply fronts the version with "RStudio version" so that it prints nicely.
 
-
 # How Base R Differs from RStudio
 
 -   Base R
@@ -142,8 +136,6 @@ Explanation:
     -   Makes development, reproducibility, and visualization easier, but does not replace R itself
 
 Example: Base R functionality (works the same in RStudio since RStudio calls R under the hood)
-
-
 
 # What Is a CRAN Mirror and How Do You Set It?
 
@@ -174,15 +166,13 @@ Or you can set it programmatically in your script:
 
 ```
 
-
 ## You can check current repos with:
 
-``` {r}
+```{r}
 
 getOption("repos")
 
 ```
-
 
 # Setting a Working Directory and Using R Projects
 
@@ -193,7 +183,6 @@ A very efficient workflow is to:
 1.  Create a **work folder** for your project.
 2.  Create an **R Project** inside that folder.\
 3.  Keep all your data, code, and documents in that folder.
-
 
 ## Creating an `.Rproj` and Setting the Working Directory
 
@@ -228,7 +217,6 @@ You can change the working directory manually (less recommended than using Proje
 
 Using R Projects is more robust than calling `setwd()` in every script, and it keeps your projects self-contained.
 
-
 # Exploring the RStudio Environment (Panes and Toolbars)
 
 Once you have installed R and RStudio, open **RStudio**. By default, you will see four main panes:
@@ -257,12 +245,9 @@ Across the **top toolbar** you will find buttons for:
 -   Creating new scripts and Quarto / R Markdown files\
 -   Saving files\
 
+This Quarto figure syntax that embeds an image and centers it using a figure attribute block. ![RStudio window](images/Rstudio2.png){fig-align="center"}
 
-This Quarto figure syntax that embeds an image and centers it using a figure attribute block.
-![RStudio window](images/Rstudio2.png){fig-align="center"}
-
-
-# Now you are ready to get started! 
+# Now you are ready to get started!
 
 Create a code chunk by typing 3 backticks and then {r}. End the code chunk by typing 3 more backticks. Naming each chunk helps to debug when knitting/rendering (see below).
 
@@ -280,7 +265,6 @@ Create a code chunk by typing 3 backticks and then {r}. End the code chunk by ty
 # (3) to run the entire chunk, click on the green button to the right. 
 
 ```
-
 
 ## Quick Demonstrations
 
@@ -305,14 +289,12 @@ plot(nums, type = "b", main = "Demo plot", xlab = "Index", ylab = "Value")
 
 ```
 
-
 # Installing and Loading Libraries
 
 R’s functionality is extended through **packages** (libraries). You typically:
 
 1.  **Install** a package once (per machine or environment).\
 2.  **Load** it in each session where you want to use it.
-
 
 ## Installing Packages
 
@@ -373,16 +355,14 @@ loaded_pkgs
 
 ```
 
-
 Notes:
 
 -   Use `install.packages("packagename")` once per machine or project.\
 -   Use `library(packagename)` in each session/script where needed.\
 -   For reproducibility, consider project environments such as **renv**.
-  -   renv creates an isolated package library per project and:
-  -   records the exact package versions you used
-  -   lets others (or future-you) recreate the same setup
-
+-   renv creates an isolated package library per project and:
+-   records the exact package versions you used
+-   lets others (or future-you) recreate the same setup
 
 # Formatting Flat Files for Loading
 
@@ -396,7 +376,6 @@ Good practices for CSV/TSV flat files:
 -   Use ISO 8601 for dates (`YYYY-MM-DD`) and include time zones if timestamps are present\
 -   Avoid embedded line breaks in cells; if present, ensure proper quoting\
 -   Keep one “tidy” table per file: each row is one observation, each column is one variable
-
 
 ## Create and Save a Well-Formatted CSV
 
@@ -431,7 +410,6 @@ csv_path
 
 ```
 
-
 # Loading a Dataset (Flat File and Other Resources)
 
 ## Loading the CSV with Base R
@@ -450,7 +428,6 @@ str(loaded_base)  # structure of the dataframe
 head(loaded_base) # first six rows (by default)
 
 ```
-
 
 ## Loading the CSV by creating a new object
 
@@ -473,7 +450,6 @@ head(tidy_example)
 
 ```
 
-
 ## Loading the CSV with readr (tidyverse)
 
 ```{r install_readr, eval=FALSE}
@@ -495,7 +471,6 @@ if (requireNamespace("readr", quietly = TRUE)) {
 # the double-colons calls the package only when needed but does not install it. 
 
 ```
-
 
 ### Handling Column Types and Missing Values Explicitly with readr
 
@@ -520,7 +495,6 @@ if (requireNamespace("readr", quietly = TRUE)) {
 # If the readr package is installed but not loaded as a library, the 2 colons in each row will use the readr package anyway, use to execute that row. 
 ```
 
-
 ### Reading Excel Files
 
 ```{r read_excel, eval=FALSE}
@@ -540,7 +514,6 @@ if (requireNamespace("readxl", quietly = TRUE)) {
 
 ```
 
-
 ### VIDEO 2
 
 # Simple Calculations
@@ -559,7 +532,6 @@ sum(x^2)
 
 ```
 
-
 # Types of Objects and Variables in R
 
 R works with several fundamental object types:
@@ -570,7 +542,6 @@ R works with several fundamental object types:
 -   **Arrays**: multi-dimensional generalization of matrices\
 -   **Data frames**: tabular structures (columns can have different types)\
 -   **Lists**: ordered collections of elements that can each be a different type or structure
-
 
 ## Creating Objects in Practice
 
@@ -583,7 +554,6 @@ scalar_example <- 42
 scalar_example
 
 ```
-
 
 ### Numeric and character vectors (scalars are simply vectors of length 1)
 
@@ -645,7 +615,6 @@ df2
 
 ```
 
-
 ### Lists
 
 ```{r lists}
@@ -656,7 +625,6 @@ lst <- list(scalar = scalar_example, vector = a, matrix = m, array = arr, datafr
 lst
 
 ```
-
 
 ## How Data Frames Differ from Datasets (Stata/SAS)
 
@@ -670,7 +638,6 @@ In R:
 
 Conceptually, think of "dataset on disk" (Stata/SAS) versus "data frame in memory" (R), even though they represent similar rectangular data.
 
-
 # Coding in Base R vs RStudio
 
 -   **Base R**
@@ -681,7 +648,6 @@ Conceptually, think of "dataset on disk" (Stata/SAS) versus "data frame in memor
     -   Provides a script editor, console, plots, help, history, projects, Git integration, and more.
 
 You can write **exactly the same R code** in both environments; RStudio simply makes development more convenient.
-
 
 # R Is Open Source – Anyone Can Create an R Function
 
@@ -723,7 +689,6 @@ z_score(c(1, 2, 3, 4, 5))
 ```
 
 This is the same mechanism that package authors use—just organized and distributed as packages.
-
 
 # Snippets: Small Templates or Code Skeletons
 
@@ -772,7 +737,6 @@ snippet gg_hist
 3.  Save and close the editor.\
 4.  In your script, type `gg_hist` and press Tab to insert the template.
 
-
 # Conducting Analyses
 
 ## Descriptive Statistics (Base R)
@@ -784,7 +748,6 @@ summary(x)
 mean(x); median(x); sd(x); quantile(x, probs = c(0.25, 0.5, 0.75))
 
 ```
-
 
 ## Group-wise Summaries (dplyr, if available)
 
@@ -802,7 +765,6 @@ if (requireNamespace("dplyr", quietly = TRUE)) {
 }
 
 ```
-
 
 ## Visualization (ggplot2, if available)
 
@@ -825,7 +787,6 @@ if (requireNamespace("ggplot2", quietly = TRUE)) {
 # https://r-graph-gallery.com/line-chart-ggplot2.html
 
 ```
-
 
 ## Linear Regression
 
@@ -850,7 +811,6 @@ summary(fit)
 
 ```
 
-
 ## T-test (Group Comparison)
 
 ```{r t_test}
@@ -862,7 +822,6 @@ t.test(mpg ~ am, data = mtcars)
 # Interpretation: the car with manual transmission gets approximately 7 more mpg than the car with automatic transmission gets. 
 
 ```
-
 
 ## Contingency Table and Chi-Squared Test
 
@@ -877,7 +836,6 @@ chisq.test(tbl)
 
 ```
 
-
 # Saving Datasets and Objects
 
 ## Save to CSV (Portable)
@@ -891,7 +849,6 @@ out_csv
 
 ```
 
-
 ## Save to RDS (Single Object, Preserves R Types)
 
 ```{r save_rds}
@@ -903,7 +860,6 @@ identical(mtcars, mtcars_loaded)
 
 # Saving an object as an .rds file writes it to disk; the object must be read back into the R session using readRDS() before it can be viewed or used.
 ```
-
 
 ## Save Multiple Objects to .RData (Workspace-like)
 
@@ -921,13 +877,11 @@ obj1; obj2
 
 ```
 
-
 # Saving and Knitting Quarto Files
 
 ## What is Quarto?
 
 **Quarto** is a modern open-source scientific and technical publishing system built on Pandoc. It allows you to create dynamic documents, reports, presentations, and websites that combine text, code, and output.
-
 
 ## How to create Quarto documents
 
@@ -935,7 +889,6 @@ obj1; obj2
 -   Choose a template (e.g., HTML, PDF, Word) and click **OK**.\
 -   Write your content using Markdown and embed R code chunks using triple backticks with `{r}`.
 -   Save the file with a `.qmd` extension.
-
 
 ## Rendering Quarto from R
 
@@ -947,7 +900,6 @@ if (requireNamespace("quarto", quietly = TRUE)) {
 }
 
 ```
-
 
 # Where to Find Help
 
@@ -961,7 +913,6 @@ help.search("linear model")
 vignette()
 
 ```
-
 
 ## POSIT Cheat Sheets
 
