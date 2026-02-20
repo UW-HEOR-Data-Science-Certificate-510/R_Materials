@@ -29,7 +29,7 @@ The website is intended for students to view materials in a clean web format, st
 - The R lessons can be downloaded and run from within **Canvas**
 
 ## GitHub Pages
-This repository includes a GitHub Actions workflow at `.github/workflows/publish.yml` to publish the Quarto website with GitHub Pages when changes are pushed to `main`.
+This repository includes a GitHub Actions workflow at `.github/workflows/publish.yml` to publish the Quarto website with [GitHub Pages](https://uw-heor-data-science-certificate-510.github.io/R_Materials/) when changes are pushed to `main`.
 
 The purpose of this repository is to give you exposure to what a GitHub repository looks like and how code-based course materials are commonly shared.
 

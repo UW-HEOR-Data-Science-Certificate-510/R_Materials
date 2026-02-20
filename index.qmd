@@ -6,7 +6,7 @@ This site provides **read-only reference materials** for students in the certifi
 
 These materials are shared so you can:
 
-- Review R concepts and examples from class
+- Review R concepts and examples from video tutorials in Canvas
 - See how code-based course materials are organized in GitHub
 - Access course reference content in one place
 
