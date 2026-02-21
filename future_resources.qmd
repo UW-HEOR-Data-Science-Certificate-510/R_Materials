@@ -2,9 +2,9 @@
 title: "Future Resources"
 ---
 
-Additional R topics and course resources will be added here over time.
+Additional R topics and course resources could be added here over time.
 
-Planned additions:
+For example:
 
 - Data wrangling fundamentals
 - Visualization with `ggplot2`
