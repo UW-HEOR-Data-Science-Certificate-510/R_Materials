@@ -28,13 +28,7 @@ The full repository download is recommended because it includes theme and image 
 ## 4. Run Code
 
 - To run code interactively, execute chunks with `Cmd/Ctrl + Enter`.
-- To render the full document use the R terminal and type:
-
-```bash
-quarto render R_basics.qmd --execute
-```
-
-- To render from R:
+- To render the full document use the R console and type:
 
 ```r
 quarto::quarto_render("R_basics.qmd", execute = TRUE)
