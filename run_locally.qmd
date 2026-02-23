@@ -4,20 +4,18 @@ title: "Run R Basics Locally"
 
 Use these steps if you download `R_basics.qmd` from GitHub and want to run it on your own computer.
 
+
 ## 1. Install Required Software
 
 - Install R: <https://cran.r-project.org/>
 - Install RStudio Desktop: <https://posit.co/download/rstudio-desktop/>
 - Install Quarto: <https://quarto.org/docs/get-started/>
 
+
 ## 2. Download the Lesson
 
-You have two options:
+Download the full repository from GitHub using **Code > Download ZIP** and unzip it.
 
-- Recommended: Download the full repository from GitHub using **Code > Download ZIP** and unzip it.
-- Single-file option: Open `R_basics.qmd`, click **Raw**, then save the file.
-
-The full repository download is recommended because it includes theme and image files used by the document.
 
 ## 3. Open in RStudio
 
@@ -25,11 +23,12 @@ The full repository download is recommended because it includes theme and image 
 2. Open the folder where you downloaded the files.
 3. Open `R_basics.qmd`.
 
+
 ## 4. Run Code
 
 - To run code interactively, execute chunks with `Cmd/Ctrl + Enter`.
-- To render the full document use the R console and type:
-
+- To render the full document click the Render button at the top of the R Studio screen.
+ - Or, you can render by creating a new chunk and typing this line of code:
 ```r
 quarto::quarto_render("R_basics.qmd", execute = TRUE)
 ```
@@ -37,5 +36,9 @@ quarto::quarto_render("R_basics.qmd", execute = TRUE)
 ## 5. If Rendering Fails
 
 - Install missing R packages shown in the error messages (for example `dplyr`, `ggplot2`, `readr`).
-- Confirm Quarto is installed and available in your terminal.
-
+- Confirm Quarto is installed by typing into your Console: 
+quarto::quarto_version()
+- If quarto is installed the version number will appear. 
+- If quarto is not installed, install it from the quarto website using the URL provided at the top of this script. Then restart R Studio. 
+- Restarting RStudio is important because it refreshes the system PATH.
+- Then recheck to make sure quarto is installed. 
