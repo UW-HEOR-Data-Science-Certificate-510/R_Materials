@@ -39,6 +39,6 @@ quarto::quarto_render("R_basics.qmd", execute = TRUE)
 - Confirm Quarto is installed by typing into your Console: 
 quarto::quarto_version()
 - If quarto is installed the version number will appear. 
-- If quarto is not installed, install it from the quarto website using the URL provided at the top of this script. Then restart R Studio. 
-- Restarting RStudio is important because it refreshes the system PATH.
+- If quarto is not installed, install it from the quarto website using the URL provided at the top of this script. 
+- Be sure to save your script; then restart R Studio. Restarting RStudio is important because it refreshes the system PATH.
 - Then recheck to make sure quarto is installed. 
